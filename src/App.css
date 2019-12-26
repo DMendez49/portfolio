@@ -1,0 +1,140 @@
+
+@import "index.css";
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ui.inverted.button{
+  background-color: rgba(194, 129, 129, 0.514) !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  font-family: monospace !important;
+  color: whitesmoke;
+}
+
+.ui.menu {
+    display: flex;
+    margin: 1rem 0;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    background: linear-gradient(45deg, black, transparent) !important;
+    font-weight: 400;
+    border: 1px solid rgba(34,36,38,.15);
+    box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+    border-radius: .28571429rem;
+    min-height: 2.85714286em;
+}
+
+center{
+  background-image: url(https://images.squarespace-cdn.com/content/v1/52bb75f8e4b016d5f2755d8f/1534297749251-8W7D4SM7FA82NMDLMRXF/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/Instructure_HQ_Shoot_2-25.jpg?format=2500w);
+  height: 1650px;
+}
+
+.thick-border{
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 50%;
+}
+
+.ui.menu:first-child {
+  margin-bottom: 0;
+  border: none;
+}
+
+.ui.card, .ui.cards>.card {
+  width: 1500px !important;
+  background: linear-gradient(45deg, black, transparent) !important;
+  color: white;
+  border: none;
+}
+
+h1{
+  font-size: 45px !important;
+}
+ h2{
+   font-size: 30px !important;
+ }
+ h4{
+   font-size: 30px !important;
+ }
+ 
+ h5{
+   font-size: 20px;
+   /* background: linear-gradient(45deg, rgba(255, 0, 0, 0), transparent) !important; */
+   background-color: rgba(0, 0, 0, 0.856);
+   font-family: monospace !important;
+   font-size: 27px !important;
+   width: 1400px;
+   color: whitesmoke;
+  }
+
+  li{
+    font-family: monospace !important;
+    color: rgb(4, 195, 243) !important;
+    background-color: black;
+  }
+
+  .color{
+    background-color: black;
+  }
+
+  .space{
+    justify-content: space-evenly !important;
+  }
+
+  h6{
+    font-size: 20px;
+    background: linear-gradient(45deg, rgba(128, 128, 128, 0.712), transparent) !important;
+    font-family: monospace !important;
+    font-size: 27px !important;
+    width: 1800px;
+    color: black;
+    border: none;
+  }
+
+  .sidebyside {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+    
+    button{
+      background-color: rgba(0, 0, 0, 0);
+      border: none;
+    }
