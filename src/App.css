@@ -104,12 +104,6 @@ h1{
    color: whitesmoke;
   }
 
-  li{
-    font-family: monospace !important;
-    color: rgb(4, 195, 243) !important;
-    background-color: black;
-  }
-
   .color{
     background-color: black;
   }
@@ -137,4 +131,16 @@ h1{
     button{
       background-color: rgba(0, 0, 0, 0);
       border: none;
+    }
+
+    .backy{
+      font-size: 20px;
+      /* background: linear-gradient(45deg, rgb(255, 255, 255), transparent) !important; */
+      background-color: rgba(245, 245, 245, 0.76);
+      font-family: monospace !important;
+      font-size: 27px !important;
+      width: 1000px;
+      color: black;
+      border: none;
+      height: 1200px;
     }

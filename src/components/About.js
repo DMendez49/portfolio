@@ -17,39 +17,38 @@ const About = () => (
          <br /><br />
           </h2>
       </header>
-    </Card>
-        <h5> 
-          <br />
-          <h1>Company's I've Worked For:</h1>
+  </Card>
+    <h5> 
+      <br />
+        <h1>Company's I've Worked For:</h1>
           <hr />
             <br />
-              <button onClick={() => {}}>
+              <button onClick={event => window.location.href='/DellTechnologies'}>
                 <img alt="build diagram" src="https://cdn.worldvectorlogo.com/logos/dell-technologies-logo.svg"width="400"></img>
               </button>
                 <br />
                 <br />
-              <button onClick={() => {}}>
+              <button onClick={event => window.location.href='/Instructure'}>
                 <img alt="build diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Instructure_logo.svg/1280px-Instructure_logo.svg.png"width="400"></img>
               </button> 
                 <br />
                 <br />
-              <button onClick={() => {}}>
+              <button onClick={event => window.location.href='/Sykes'}>
                 <img alt="build diagram" src="https://www.xytrondatarecovery.co.uk/wp-content/uploads/2015/07/sykes-logo.png"width="400"></img>
               </button>
                 <br />
-              <button onClick={() => {}}>
+              <button onClick={event => window.location.href=`/Express`}>
               <img alt="build diagram" src="https://www.expresspros.com/uploadedImages/Landing_Pages/Express_Reviews/EEP.PNG?n=5007" width="400" height="215"></img>
               </button>
                 <br />
-              <button onClick={() => {}}>
+              <button onClick={event => window.location.href=`/Alorica`}>
                 <img alt="build diagram" src="https://cdn.alorica.com/wp-content/themes/alorica/images/logo.png" width="400"></img>
               </button>
                 <br />
          </h5>
       <br />
      <Card>
-       <h2>Schools I attended:</h2>
-      <hr />
+       <h1>Schools I attended:</h1>
       <div class="sidebyside">
         <button onClick={() => {}}>
           <img alt="build diagram" src="https://umc.utah.edu/wp-content/uploads/sites/15/2015/01/BlockU_400px.png" width="300"></img>

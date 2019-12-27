@@ -8,7 +8,7 @@ const Home = () =>(
       <div>
         <img class="thick-border" alt="build diagram" src="https://scontent-den4-1.xx.fbcdn.net/v/t1.0-9/52778803_2138707336198360_337889896129626112_o.jpg?_nc_cat=106&_nc_ohc=AUtSFTivbikAQm_MYSYvHf-LmfojfKQ0_YFgq8IS74C-osLNnVkVZ8NAA&_nc_ht=scontent-den4-1.xx&oh=f2b8c48adc26eab321f39c730aa2a627&oe=5EAF8C67" width="600"></img>
         <br /><br /><br />
-        <br /><br /><br />
+        <br /><br /><br /><br />
         <Card>
           <br />
           <h1>David Mendez</h1>

@@ -6,8 +6,19 @@ const Project = () => (
   <center>
         <a href="https://github.com/DMendez49">
           <img alt="build diagram" src="http://pngimg.com/uploads/github/github_PNG20.png" height="250"width="240"></img></a>    
+          <br />
+          <br />
+          <br />
+          <Card>
+      <h2> 
+        <br />
+        Select GitHub Icon to review repositories/projects 
+        <br /><br />
+        </h2>
+        </Card>
         <h6>
-          <h4>
+         <h4>
+          <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
             <div class="sidebyside">
               <button>
                 <img alt="build diagram" src="https://cdn0.iconfinder.com/data/icons/HTML5/512/HTML_Logo.png" width="180" height="220"></img>
@@ -40,24 +51,6 @@ const Project = () => (
               <button>
                 <img alt="build diagram" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width="180" height="220"></img> 
               </button>
-
-              {/* sidebar */}
-              {/* <div class="ui sidebar left inverted menu">
-                <a href="#" class="item">Monday</a>
-                <a href="#" class="item">Tuesday</a>
-                <a href="#" class="item">wednsday</a>
-                <a href="#" class="item">thursday</a>
-                <a href="#" class="item">friday</a>
-                <a href="#" class="item">saturday</a>
-                <a href="#" class="item">sunday</a>
-              </div>
-                <div class ="dimmed pusher">
-                  
-                </div>
-
-              <script>
-                $(`.ui.sidebar`).toggle();
-              </script> */}
             </div>
           </h4>
       </h6>
