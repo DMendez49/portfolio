@@ -1,6 +1,6 @@
 import React from "react";
 
-const NoMatch = () =>(
+const NoMatch = () => (
   <h1>Error: 404 - No Page Found</h1>
 );
 

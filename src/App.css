@@ -41,8 +41,8 @@
 }
 
 .ui.inverted.button{
-  background-color: rgba(194, 129, 129, 0.514) !important;
-  border-width: 1px !important;
+  background-color: rgba(180, 155, 155, 0.514) !important;
+  border-width: .1px !important;
   border-style: solid !important;
   font-family: monospace !important;
   color: whitesmoke;
@@ -58,6 +58,7 @@
     box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
     border-radius: .28571429rem;
     min-height: 2.85714286em;
+    
 }
 
 center{
@@ -127,6 +128,19 @@ h1{
       flex-direction: row;
       justify-content: space-evenly;
     }
+
+    .alighnRight {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: left;
+      font-size: 20px;
+      background: linear-gradient(45deg, rgba(128, 128, 128, 0), transparent) !important;
+      font-family: monospace !important;
+      font-size: 27px !important;
+      width: 1800px;
+      color: black;
+      border: none;
+    }
     
     button{
       background-color: rgba(0, 0, 0, 0);
@@ -144,3 +158,23 @@ h1{
       border: none;
       height: 1200px;
     }
+
+    a{
+      background-color: rgba(243, 237, 237, 0);
+    }
+
+    .squareImg {
+        border-style: solid;
+        border-width: 1px;
+        border-color: white;
+        width: 606px;
+        height: 604px;
+    }
+
+    .ooops{
+      color: rgb(255, 0, 0);
+      font-size: 30px !important;
+      background-color: rgb(255, 255, 255);
+      width: 300px;
+    }
+  
