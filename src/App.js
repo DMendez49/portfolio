@@ -19,14 +19,14 @@ const App = () => (
           <Switch>
             <center>
               <Route exact path= "/" component={Home}/>
-              <Route exact path= "/about" component={About}/>
-              <Route exact path="/connection" component={Conection}/>
-              <Route exact path="/project" component={Project}/>
-              <Route exact path="/DellTechnologies" component={DellTechnologies}/>
-              <Route exact path="/Instructure" component={Instructure}/>
               <Route exact path="/Sykes" component={Sykes}/>
+              <Route exact path= "/about" component={About}/>
               <Route exact path="/Express" component={Express}/>
               <Route exact path="/Alorica" component={Alorica}/>
+              <Route exact path="/project" component={Project}/>
+              <Route exact path="/connection" component={Conection}/>
+              <Route exact path="/Instructure" component={Instructure}/>
+              <Route exact path="/DellTechnologies" component={DellTechnologies}/>
               <Route component = {NoMatch}/>
             </center>
           </Switch>
