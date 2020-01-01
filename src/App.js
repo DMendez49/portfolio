@@ -6,7 +6,7 @@ import About from './components/About';
 import Conection from './components/Conection';
 import Project from './components/Projects';
 import Navbar from "./components/Navbar";
-import Dell from "./components/Dell";
+import DellTechnologies from "./components/DellTechnologies";
 import Instructure from "./components/Instructure";
 import Sykes from "./components/Sykes";
 import Express from "./components/Express";
