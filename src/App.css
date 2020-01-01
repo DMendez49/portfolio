@@ -101,7 +101,7 @@ h1{
    background-color: rgba(0, 0, 0, 0.856);
    font-family: monospace !important;
    font-size: 27px !important;
-   width: 1400px;
+   /* width: 1400px; */
    color: whitesmoke;
   }
 
@@ -118,7 +118,7 @@ h1{
     background: linear-gradient(45deg, rgba(128, 128, 128, 0.712), transparent) !important;
     font-family: monospace !important;
     font-size: 27px !important;
-    width: 1800px;
+    /* width: 1800px; */
     color: black;
     border: none;
   }
@@ -177,4 +177,34 @@ h1{
       background-color: rgb(255, 255, 255);
       width: 300px;
     }
+
+    #Container {
+      widows: 960px;
+      margin: 0px auto !important;
+    }
+
+    #left-column{
+      width:700px;
+      float: left;
+      background:blue;
+    }
+
+    #right-column{
+      widows: 260px;
+      float:left;
+      background:orange;
+    }
   
+    @media screen and (max-width:959px){
+      #Container{
+        width: 100%;
+      }
+      #left-column{
+        width: 70%;
+      }
+      #right-column{
+        width: 30%;
+      }
+    }
+
+    
