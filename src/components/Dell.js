@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Header, Segment, Card } from "semantic-ui-react";
 
-const Dell = () => (
+const DellTechnologies = () => (
   <center>
     <div class="Container">
       <div class="left-column">

@@ -22,7 +22,7 @@ const App = () => (
               <Route exact path= "/about" component={About}/>
               <Route exact path="/connection" component={Conection}/>
               <Route exact path="/project" component={Project}/>
-              <Route exact path="/DellTechnologies" component={Dell}/>
+              <Route exact path="/DellTechnologies" component={DellTechnologies}/>
               <Route exact path="/Instructure" component={Instructure}/>
               <Route exact path="/Sykes" component={Sykes}/>
               <Route exact path="/Express" component={Express}/>
