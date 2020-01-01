@@ -42,4 +42,4 @@ const DellTechnologies = () => (
 
 );
 
-export default Dell;
+export default DellTechnologies;
