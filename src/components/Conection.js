@@ -49,10 +49,12 @@ export default class MyForm extends React.Component {
                   </div>
                   <br />
                 </h6>
-                <br />  <br />  <br />  <br />
-                <br />  <br />  <br />  <br />
                 <Card>
-                  <br />  <br />  <br />  <br />
+                  
+                 <h2></h2> <a><img alt="build diagram" src="https://img.icons8.com/plasticine/2x/important-mail.png" width="200" height="200"></img></a>
+                  <h2>mendezdavid68@gmail.com</h2>
+
+                  <br /><br /> <br />
                   <h2 align="left">Email:</h2>
                   <div class="ui large input focus">
                     <input type="email" placeholder="Email..." name="email" />
@@ -63,15 +65,14 @@ export default class MyForm extends React.Component {
                   <div class="ui massive icon input">
                     <input type="text" placeholder="Message..." name="message" />
                     <br />  <br />  <br />  <br />  <br />  <br />
-                    <br />
                   </div>
+                    <br /><br /><br /><br /><br />
                   <br />  <br />  <br />  <br />
                 </Card>
                 {status === "SUCCESS" ? <p>Thanks!</p> : <button class="ui massive blue button ">Send</button>}
                 {/*the text button*/}
                 {/* <button class="ui massive red button " onClick={this.toggletext}>Text</button>  */}
                 <br /><br />
-
                 <div class="ooops">
                   {status === "ERROR" && <p>Ooops! There was an error!</p>}
                 </div>

@@ -6,15 +6,18 @@ const Home = () => (
     <div class="Container">
       <div class="left-column">
         <div class="right-column">
-          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+          <br /><br /><br /><br /><br />
           <div>
             <img class="thick-border" alt="build diagram" src="https://scontent-den4-1.xx.fbcdn.net/v/t1.0-9/52778803_2138707336198360_337889896129626112_o.jpg?_nc_cat=106&_nc_ohc=AUtSFTivbikAQm_MYSYvHf-LmfojfKQ0_YFgq8IS74C-osLNnVkVZ8NAA&_nc_ht=scontent-den4-1.xx&oh=f2b8c48adc26eab321f39c730aa2a627&oe=5EAF8C67" width="600"></img>
-            <br /><br /><br />
-            <br /><br /><br /><br />
             <Card>
               <br />
               <h1>David Mendez</h1>
               <h2>Software Engineer</h2>
+              <h3>Hello my name is David Mendez and my interest grew for computer science with my time at Instructure. I was self tought when it comes to programming but was never satisfied with my skills.
+                I completed the folllwing courses<li>Fundamentals of computer science</li>
+                <li>Object Orented programming</li><li>Data Structures & Algorithms</li>at Salt Lake Comunity College and attended a bootCamp with the University Of Utah at Dev Point Labs.
+                I will continue this journey by challenging myself daily. The languages below are the languages I study, you can see more about me by clicking on "About" on the navbar listed above.
+              </h3>
               <h4>
                 <div class="sidebyside">
                   <img alt="build diagram" src="https://cdn0.iconfinder.com/data/icons/HTML5/512/HTML_Logo.png" width="35" height="30"></img>HTML |
@@ -29,6 +32,7 @@ const Home = () => (
               </h4>
               <br />
             </Card>
+            <br />
           </div>
         </div>
         <div>

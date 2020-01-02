@@ -63,12 +63,8 @@
 
 center{
   background-image: url(https://images.squarespace-cdn.com/content/v1/52bb75f8e4b016d5f2755d8f/1534297749251-8W7D4SM7FA82NMDLMRXF/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/Instructure_HQ_Shoot_2-25.jpg?format=2500w);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;  
-}
-
-html {
-  height: 100%
+  height: 1650px;
+  width: 100%;
 }
 
 .thick-border{
@@ -212,4 +208,32 @@ h1{
       }
     }
 
+     /* width */
+ ::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 8px black;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: darkred;
+  border-radius: 15px;
+}
+
+.red{
+color:rgb(255, 0, 0);
+}
+
+.green{
+  color:rgb(0, 255, 13);
+}
+
+.purp{
+  color:rgb(173, 17, 173);
+}
     

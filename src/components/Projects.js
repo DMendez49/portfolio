@@ -35,7 +35,7 @@ const Project = () => (
                     <img src="https://wallpaperaccess.com/full/1102001.jpg" height="700" ></img></a>
                   {/* </div> */}
                 </div>
-                <br /> <br /> <br /> <br />
+                <br /> <br /> 
                 <div class="sidebyside">
                   <button>
                     <a href="https://github.com/DMendez49">
@@ -70,7 +70,7 @@ const Project = () => (
                       <img alt="build diagram" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width="115" height="130"></img></a>
                   </button>
                 </div>
-                  <br /><br />
+                <br /><br />
               </h4>
             </h6>
           </div>
