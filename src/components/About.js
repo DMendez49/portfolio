@@ -25,37 +25,45 @@ const About = () => (
               <hr />
               <br /> <br />
               <Link to="DellTechnologies">
-              <button >
-                <img alt="build diagram" src="https://cdn.worldvectorlogo.com/logos/dell-technologies-logo.svg" width="325" ></img>
-              </button></Link>
+                <button>
+                  <img alt="build diagram" src="https://cdn.worldvectorlogo.com/logos/dell-technologies-logo.svg" width="325" ></img>
+                </button>
+              </Link>
               <br />
               <br />
               <br />
-              {/* <Link to="Instructure"> */}
-              <button >
-                <img alt="build diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Instructure_logo.svg/1280px-Instructure_logo.svg.png" width="325"></img>
-              </button>
+              <Link to="Instructure">
+                <button >
+                  <img alt="build diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Instructure_logo.svg/1280px-Instructure_logo.svg.png" width="325"></img>
+                </button>
+              </Link>
               <br />
               <br />
               <br />
-              <button onClick={event => window.location.href = '/Sykes'}>
-                <img alt="build diagram" src="https://www.xytrondatarecovery.co.uk/wp-content/uploads/2015/07/sykes-logo.png" width="325"></img>
-              </button>
+              <Link to="Sykes">
+                <button>
+                  <img alt="build diagram" src="https://www.xytrondatarecovery.co.uk/wp-content/uploads/2015/07/sykes-logo.png" width="325"></img>
+                </button>
+              </Link>
               <br />
-              <button onClick={event => window.location.href = `/Express`}>
-                <img alt="build diagram" src="https://www.expresspros.com/uploadedImages/Landing_Pages/Express_Reviews/EEP.PNG?n=5007" width="325" height="215"></img>
-              </button>
+              <Link to="Express">
+                <button>
+                  <img alt="build diagram" src="https://www.expresspros.com/uploadedImages/Landing_Pages/Express_Reviews/EEP.PNG?n=5007" width="325" height="215"></img>
+                </button>
+              </Link>
               <br />
-              <button onClick={event => window.location.href = `/Alorica`}>
-                <img alt="build diagram" src="https://cdn.alorica.com/wp-content/themes/alorica/images/logo.png" width="325"></img>
-              </button>
+              <Link to="Alorica">
+                <button>
+                  <img alt="build diagram" src="https://cdn.alorica.com/wp-content/themes/alorica/images/logo.png" width="325"></img>
+                </button>
+              </Link>
               <br />
               <br />
               <br />
               <br />
             </h5>
           </Container>
-        <br />
+          <br />
           <Card>
             <br />
             <h2>Schools I attended:</h2>
@@ -75,7 +83,7 @@ const About = () => (
         </div>
       </div>
     </div>
-  </center>
+  </center >
 );
 
 export default About;
