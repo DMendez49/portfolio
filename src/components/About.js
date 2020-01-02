@@ -24,7 +24,7 @@ const About = () => (
               <h2>Company's I've Worked For:</h2>
               <hr />
               <br /> <br />
-              <button onClick={event => window.location.protocol = '/DellTechnologies'}>
+              <button onClick={event => window.location.href = '/DellTechnologies'}>
                 <img alt="build diagram" src="https://cdn.worldvectorlogo.com/logos/dell-technologies-logo.svg" width="325"></img>
               </button>
               <br />
@@ -53,7 +53,7 @@ const About = () => (
               <br />
             </h5>
           </Container>
-          <br />
+        <br />
           <Card>
             <br />
             <h2>Schools I attended:</h2>
@@ -69,6 +69,7 @@ const About = () => (
               </button>
             </div>
           </Card>
+          <br /><br /><br />
         </div>
       </div>
     </div>

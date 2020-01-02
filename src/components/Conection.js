@@ -1,10 +1,9 @@
 import React from "react";
 import { Card, } from "semantic-ui-react";
 
-
 export default class MyForm extends React.Component {
   //for the text toggle button
-  state = { text: false, }
+  // state = { text: false, }
 
   constructor(props) {
     super(props);
@@ -14,7 +13,7 @@ export default class MyForm extends React.Component {
     };
   }
   //toggle button for text
-  toggle = () => this.setState({ text: !this.state.text })
+  // toggle = () => this.setState({ text: !this.state.text })
 
   render() {
     const { status } = this.state;
@@ -69,8 +68,8 @@ export default class MyForm extends React.Component {
                   <br />  <br />  <br />  <br />
                 </Card>
                 {status === "SUCCESS" ? <p>Thanks!</p> : <button class="ui massive blue button ">Send</button>}
-                {/*the text button}
-                {/* <button class="ui massive red button " onClick={this.toggletext}>Text</button> */}
+                {/*the text button*/}
+                {/* <button class="ui massive red button " onClick={this.toggletext}>Text</button>  */}
                 <br /><br />
 
                 <div class="ooops">

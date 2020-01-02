@@ -70,6 +70,7 @@ const Project = () => (
                       <img alt="build diagram" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width="115" height="130"></img></a>
                   </button>
                 </div>
+                  <br /><br />
               </h4>
             </h6>
           </div>
