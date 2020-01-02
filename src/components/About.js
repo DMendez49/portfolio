@@ -24,8 +24,8 @@ const About = () => (
               <h2>Company's I've Worked For:</h2>
               <hr />
               <br /> <br />
-              <button onClick={event => window.location.href = '/DellTechnologies'}>
-                <img alt="build diagram" src="https://cdn.worldvectorlogo.com/logos/dell-technologies-logo.svg" width="325"></img>
+              <button onClick={event => window.location.href = '/DellTechnologies'} >
+                <img alt="build diagram" src="https://cdn.worldvectorlogo.com/logos/dell-technologies-logo.svg" width="325" ></img>
               </button>
               <br />
               <br />

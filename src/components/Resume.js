@@ -7,11 +7,11 @@ const Resume = () => (
   <center>
     <br /><br />
     <Button>
-      <a href="https://docs.google.com/document/d/1VUNIhUFK6Kzvu4SNgJwwRJPi0zn5CrfoNqIPor4mKaY/edit">
+      <a href="https://docs.google.com/document/d/1VUNIhUFK6Kzvu4SNgJwwRJPi0zn5CrfoNqIPor4mKaY/edit" target="_blank">
         <img alt="build diagram" src="https://img.icons8.com/plasticine/2x/resume.png" height="250" width="240"></img></a>
     </Button>
     <br /> <br /><br />
-        <a href="https://docs.google.com/document/d/1VUNIhUFK6Kzvu4SNgJwwRJPi0zn5CrfoNqIPor4mKaY/edit">
+        <a href="https://docs.google.com/document/d/1VUNIhUFK6Kzvu4SNgJwwRJPi0zn5CrfoNqIPor4mKaY/edit" target="_blank">
     <Card>
       <h2>
         <br />
@@ -20,7 +20,7 @@ const Resume = () => (
       </h2>
     </Card></a>
     <br /><br /><br />
-    <a href="https://docs.google.com/document/d/1VUNIhUFK6Kzvu4SNgJwwRJPi0zn5CrfoNqIPor4mKaY/edit">
+    <a href="https://docs.google.com/document/d/1VUNIhUFK6Kzvu4SNgJwwRJPi0zn5CrfoNqIPor4mKaY/edit" target="_blank">
     <card>
       <div class="backson">
         <br /><br /><br />
