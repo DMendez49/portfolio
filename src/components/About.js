@@ -24,13 +24,15 @@ const About = () => (
               <h2>Company's I've Worked For:</h2>
               <hr />
               <br /> <br />
-              <button onClick={event => window.location.href = '/DellTechnologies'} >
+              <Link to="DellTechnologies">
+              <button >
                 <img alt="build diagram" src="https://cdn.worldvectorlogo.com/logos/dell-technologies-logo.svg" width="325" ></img>
-              </button>
+              </button></Link>
               <br />
               <br />
               <br />
-              <button onClick={event => window.location.href = '/Instructure'}>
+              <Link to="Instructure">
+              <button >
                 <img alt="build diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Instructure_logo.svg/1280px-Instructure_logo.svg.png" width="325"></img>
               </button>
               <br />

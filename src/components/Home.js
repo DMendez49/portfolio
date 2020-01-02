@@ -19,15 +19,15 @@ const Home = () => (
                 I will continue this journey by challenging myself daily. The languages below are the languages I study, you can see more about me by clicking on "About" on the navbar listed above.
               </h3>
               <h4>
-                <div class="sidebyside">
-                  <img alt="build diagram" src="https://cdn0.iconfinder.com/data/icons/HTML5/512/HTML_Logo.png" width="35" height="30"></img>HTML |
-              <img alt="build diagram" src="https://3.bp.blogspot.com/-oRSUw_TmO9o/XIb61m88fcI/AAAAAAAAIq0/vnxl2zzsXEQsnHI2fH4GjKu_ZT0urRo4wCK4BGAYYCw/s1600/icon%2Bcss%2B3.png" width="35" height="30"></img> CSS |
-              <img alt="build diagram" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Ruby_logo.png" width="35" height="30"></img> Ruby |
-              <img alt="build diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Ruby_on_Rails_logo.svg/807px-Ruby_on_Rails_logo.svg.png" width="35" height="30"></img> Rails |
-              <img alt="build diagram" src="https://image.flaticon.com/icons/png/512/226/226777.png" width="35" height="30"></img> Java |
-              <img alt="build diagram" src="http://pluspng.com/img-png/logo-javascript-png-file-javascript-logo-png-1052.png" width="35" height="30"></img> JavaScript |
-              <img alt="build diagram" src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" width="35" height="30"></img> React |
-              <img alt="build diagram" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width="35" height="30"></img> Git
+              <div class="sidebyside">
+                <img alt="build diagram" src="https://cdn0.iconfinder.com/data/icons/HTML5/512/HTML_Logo.png" width="35" height="30"></img>HTML |
+                <img alt="build diagram" src="https://3.bp.blogspot.com/-oRSUw_TmO9o/XIb61m88fcI/AAAAAAAAIq0/vnxl2zzsXEQsnHI2fH4GjKu_ZT0urRo4wCK4BGAYYCw/s1600/icon%2Bcss%2B3.png" width="35" height="30"></img> CSS |
+                <img alt="build diagram" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Ruby_logo.png" width="35" height="30"></img> Ruby |
+                <img alt="build diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Ruby_on_Rails_logo.svg/807px-Ruby_on_Rails_logo.svg.png" width="35" height="30"></img> Rails |
+                <img alt="build diagram" src="https://image.flaticon.com/icons/png/512/226/226777.png" width="35" height="30"></img> Java |
+                <img alt="build diagram" src="http://pluspng.com/img-png/logo-javascript-png-file-javascript-logo-png-1052.png" width="35" height="30"></img> JavaScript |
+                <img alt="build diagram" src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" width="35" height="30"></img> React |
+                <img alt="build diagram" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width="35" height="30"></img> Git
             </div>
               </h4>
               <br />
