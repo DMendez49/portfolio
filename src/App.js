@@ -11,16 +11,18 @@ import Instructure from "./components/Instructure";
 import Sykes from "./components/Sykes";
 import Express from "./components/Express";
 import Alorica from "./components/Alorica";
+import Resume from "./components/Resume";
+
 
 const App = () => (
     <Fragment>
-      {/* <Container > */}
         <Navbar />
           <Switch>
             <center>
               <Route exact path= "/" component={Home}/>
               <Route exact path="/Sykes" component={Sykes}/>
               <Route exact path= "/about" component={About}/>
+              <Route exact path="/Resume" component={Resume}/>
               <Route exact path="/Express" component={Express}/>
               <Route exact path="/Alorica" component={Alorica}/>
               <Route exact path="/project" component={Project}/>
@@ -30,7 +32,6 @@ const App = () => (
               <Route component = {NoMatch}/>
             </center>
           </Switch>
-        {/* </Container> */}
     </Fragment>
  );
 

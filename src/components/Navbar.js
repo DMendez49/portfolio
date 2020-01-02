@@ -7,7 +7,6 @@ const Navbar = () => (
     <div class="Container">
       <div class="left-column">
         <div class="right-column">
-          {/* <div class="ui selection dropdown"> */}
           <Button color="blue inverted">
             <Link to="/">
               <Menu.Item>
@@ -22,6 +21,13 @@ const Navbar = () => (
               </Menu.Item>
             </Link>
           </Button>
+            <Button color="red inverted">
+              <Link to="/Resume">
+                <Menu.Item>
+                  <h3>Resume</h3>
+                </Menu.Item>
+              </Link>
+            </Button>
           <Button color="red inverted">
             <Link to="/project">
               <Menu.Item>
@@ -36,7 +42,6 @@ const Navbar = () => (
               </Menu.Item>
             </Link>
           </Button>
-          {/* </div> */}
         </div>
       </div>
     </div>

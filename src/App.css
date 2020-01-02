@@ -160,6 +160,18 @@ h1{
       height: 1200px;
     }
 
+    .backson{
+      font-size: 20px;
+      /* background: linear-gradient(45deg, rgb(255, 255, 255), transparent) !important; */
+      background-color: rgba(245, 245, 245, 0.76);
+      font-family: monospace !important;
+      font-size: 27px !important;
+      width: 1000px;
+      color: black;
+      border: none;
+      height: 800px;
+    }
+
     a{
       background-color: rgba(243, 237, 237, 0);
     }

@@ -21,7 +21,7 @@ const Project = () => (
                 <h2>
                   <br />
                   Select GitHub Icon to review repositories/projects
-          <br /><br />
+                  <br /><br />
                 </h2>
               </Card>
             </a>
@@ -35,7 +35,7 @@ const Project = () => (
                     <img src="https://wallpaperaccess.com/full/1102001.jpg" height="700" ></img></a>
                   {/* </div> */}
                 </div>
-                <br /> <br /> 
+                <br /> <br />
                 <div class="sidebyside">
                   <button>
                     <a href="https://github.com/DMendez49">
