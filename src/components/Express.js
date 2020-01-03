@@ -11,7 +11,7 @@ const Express = () => (
           <h5>
             <img alt="build diagram" src="https://www.expresspros.com/uploadedImages/Landing_Pages/Express_Reviews/EEP.PNG?n=5007" width="600" height="315"></img>
           </h5>
-          <br /><br /><br />
+          <br />
           <card>
             <br />
             <div class="backy">
