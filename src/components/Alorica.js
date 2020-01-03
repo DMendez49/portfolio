@@ -8,11 +8,11 @@ const Alorica = () => (
       <div class="left-column">
         <div class="right-column">
           <br />
-          <h5>
+          <div class="oz">
             <br />
             <img alt="build diagram" src="https://cdn.alorica.com/wp-content/themes/alorica/images/logo.png" width="600"></img>
             <br /> <br />
-          </h5>
+          </div>
           <br /> <br />
           <card>
             <div class="backy">

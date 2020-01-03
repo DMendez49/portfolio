@@ -8,9 +8,9 @@ const Express = () => (
       <div class="left-column">
         <div class="right-column">
           <br />
-          <h5>
+          <div class='oz'>
             <img alt="build diagram" src="https://www.expresspros.com/uploadedImages/Landing_Pages/Express_Reviews/EEP.PNG?n=5007" width="600" height="315"></img>
-          </h5>
+          </div>
           <br />
           <card>
             <br />
