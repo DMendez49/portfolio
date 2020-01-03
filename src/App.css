@@ -102,8 +102,11 @@ h1{
    background-color: rgba(0, 0, 0, 0.856);
    font-family: monospace !important;
    font-size: 27px !important;
-   /* width: 1400px; */
+   width: 1300px;
    color: whitesmoke;
+   border-style: solid;
+   border-color: blanchedalmond;
+   border-width: 1px;
   }
 
   .color{

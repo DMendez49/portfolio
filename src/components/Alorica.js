@@ -13,7 +13,7 @@ const Alorica = () => (
             <img alt="build diagram" src="https://cdn.alorica.com/wp-content/themes/alorica/images/logo.png" width="600"></img>
             <br /> <br />
           </h5>
-
+          <br /> <br />
           <card>
             <div class="backy">
               <br />
