@@ -68,11 +68,11 @@ const About = () => (
             <br />
             <h2>Schools I attended:</h2>
             <div class="sidebyside">
-              <button onClick={() => { }}>
+              <button>
                 <img alt="build diagram" src="https://umc.utah.edu/wp-content/uploads/sites/15/2015/01/BlockU_400px.png" width="200"></img>
               </button>
               <button onClick={() => { }}>
-                <img alt="build diagram" src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/2475/s300/beaker-white-256.png" width="100"></img>
+                <img alt="build diagram" src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/2475/s300/beaker-white-256.png" width="110"></img>
               </button>
               <button onClick={() => { }}>
                 <img alt="build diagram" src="https://i.slcc.edu/institutionalmarketing/images/logo/SLCClogo-BrandColors2015.png" width="200"></img>
