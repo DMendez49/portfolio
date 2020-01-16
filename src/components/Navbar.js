@@ -10,21 +10,26 @@ const Navbar = () => (
           <Button color="blue inverted">
             <Link to="/">
               <Menu.Item>
-                <h3><Icon name='home'></Icon>Home</h3>
+                <h3><Icon name='home'></Icon></h3>
               </Menu.Item>
             </Link>
           </Button>
           <Button color="red inverted">
             <Link to="/about">
               <Menu.Item>
-                <h3><Icon name="child"></Icon>About</h3>
+                <h3>
+                  {/* <Icon name="child">
+                  </Icon> */}
+                  About</h3>
               </Menu.Item>
             </Link>
           </Button>
             <Button color="red inverted">
               <Link to="/Resume">
                 <Menu.Item>
-                  <h3><Icon name="coffee"></Icon>Resume</h3>
+                  <h3>
+                    {/* <Icon name="coffee"></Icon> */}
+                    Resume</h3>
                 </Menu.Item>
               </Link>
             </Button>
