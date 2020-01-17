@@ -50,7 +50,6 @@ const Sykes = () => (
       </div>
     </div>
   </center>
-
 );
 
 export default Sykes;
