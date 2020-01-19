@@ -9,7 +9,7 @@ const Express = () => (
         <div class="right-column">
           <br />
           <div class='oz'>
-            <img alt="build diagram" src="https://www.expresspros.com/uploadedImages/Landing_Pages/Express_Reviews/EEP.PNG?n=5007" width="430" height="180"></img>
+            <img alt="build diagram" src="https://www.expresspros.com/uploadedImages/Landing_Pages/Express_Reviews/EEP.PNG?n=5007" width="400" height="200"></img>
           </div>
           <br />
           <card>
