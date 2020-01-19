@@ -67,7 +67,7 @@ const Project = () => (
                               <img alt="build diagram" src="http://pluspng.com/img-png/logo-javascript-png-file-javascript-logo-png-1052.png" height="150" width="140"></img>
                             </a>
                           </Button>
-                          <h3>App</h3>
+                          <h3>Flash_Cards</h3>
                         </div>
                       </Grid>
                     </Grid.Column>
