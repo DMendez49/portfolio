@@ -7,43 +7,52 @@ const Navbar = () => (
     <div class="Container">
       <div class="left-column">
         <div class="right-column">
-          <Button color="blue inverted">
+          <Button color="blue inverted"
+            size="tiny">
             <Link to="/">
               <Menu.Item>
-                <h3><Icon name='home'></Icon></h3>
+                <h3><Icon name='home'>
+                </Icon></h3>
               </Menu.Item>
             </Link>
           </Button>
-          <Button color="red inverted">
+          <Button color="red inverted"
+            size="tiny">
             <Link to="/about">
               <Menu.Item>
                 <h3>
-                  {/* <Icon name="child">
-                  </Icon> */}
                   About</h3>
               </Menu.Item>
             </Link>
           </Button>
-            <Button color="red inverted">
-              <Link to="/Resume">
-                <Menu.Item>
-                  <h3>
-                    {/* <Icon name="coffee"></Icon> */}
-                    Resume</h3>
-                </Menu.Item>
-              </Link>
-            </Button>
-          <Button color="red inverted">
-            <Link to="/project">
+          <Button color="red inverted"
+            size="tiny">
+            <Link to="/Resume">
               <Menu.Item>
-                <h3><Icon name="free code camp"></Icon>Projects</h3>
+                <h3>
+                  Resume</h3>
               </Menu.Item>
             </Link>
           </Button>
-          <Button color="red inverted" >
+          <Button color="red inverted"
+            size="tiny">
+            <Link to="/project">
+              <Menu.Item>
+                <h3>
+                  Projects
+                </h3>
+              </Menu.Item>
+            </Link>
+          </Button>
+          <Button color="red inverted"
+            size="tiny" >
             <Link to="connection">
               <Menu.Item>
-                <h3><Icon name="phone"></Icon>Contact Me</h3>
+                <h3>Contact Me
+                  <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                  <Icon name="phone">
+                  </Icon>
+                </h3>
               </Menu.Item>
             </Link>
           </Button>
@@ -52,4 +61,6 @@ const Navbar = () => (
     </div>
   </Menu>
 );
+
 export default Navbar;
+

@@ -9,7 +9,7 @@ const DellTechnologies = () => (
           <br />
           <Card>
             <br />
-            <img alt="build diagram" src="https://cdn.worldvectorlogo.com/logos/dell-technologies-logo.svg" width="900"></img>
+            <img alt="build diagram" src="https://cdn.worldvectorlogo.com/logos/dell-technologies-logo.svg" width="500"></img>
             <br />
           </Card>
 
@@ -18,11 +18,11 @@ const DellTechnologies = () => (
               <br />
               <br />
               <br />
-              <h2>Role: Data Analyst</h2>
-              <h2>Contact: 1(801)566-1889</h2>
-              <h2>Dates: Feb 2018 - May 2019</h2>
+              <h3>Role: Data Analyst</h3>
+              <h3>Contact: 1(801)566-1889</h3>
+              <h3>Dates: Feb 2018 - May 2019</h3>
               <br />
-              <h2>Discription:</h2>
+              <h3>Discription:</h3>
               <h3><br /><li>
                 Provided technical support to field support personnel using complex infrastructures, Dell customers and dell distributors. I developed resolutions to problems of limited scope and follows standard practices and procedures.
             </li>

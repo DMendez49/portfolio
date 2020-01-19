@@ -10,7 +10,7 @@ const Alorica = () => (
           <br />
           <div class="oz">
             <br />
-            <img alt="build diagram" src="https://cdn.alorica.com/wp-content/themes/alorica/images/logo.png" width="600"></img>
+            <img alt="build diagram" src="https://cdn.alorica.com/wp-content/themes/alorica/images/logo.png" width="370"></img>
             <br /> <br />
           </div>
           <br /> <br />
@@ -19,11 +19,11 @@ const Alorica = () => (
               <br />
               <br />
               <br />
-              <h2>Role: Geek Squad Technical Support</h2>
-              <h2>Contact: (801) 981-1300</h2>
-              <h2>Dates: 2010 - 2013</h2>
+              <h3>Role: Geek Squad Technical Support</h3>
+              <h3>Contact: (801) 981-1300</h3>
+              <h3>Dates: 2010 - 2013</h3>
               <br />
-              <h2>Discription:</h2>
+              <h3>Discription:</h3>
               <h3><br /><li>
                 Providing instant world-class service to HCSS customers through multiple channels (phone, chat, email, social, etc.)            </li>
               </h3>

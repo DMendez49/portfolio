@@ -9,18 +9,18 @@ const Express = () => (
         <div class="right-column">
           <br />
           <div class='oz'>
-            <img alt="build diagram" src="https://www.expresspros.com/uploadedImages/Landing_Pages/Express_Reviews/EEP.PNG?n=5007" width="600" height="315"></img>
+            <img alt="build diagram" src="https://www.expresspros.com/uploadedImages/Landing_Pages/Express_Reviews/EEP.PNG?n=5007" width="430" height="180"></img>
           </div>
           <br />
           <card>
             <br />
             <div class="backy">
               <br /><br /><br />
-              <h2>Role: Machine Operator</h2>
-              <h2>Contact: (801) 566-502​6</h2>
-              <h2>Dates:​ ​May 2013 - may 2016</h2>
+              <h3>Role: Machine Operator</h3>
+              <h3>Contact: (801) 566-502​6</h3>
+              <h3>Dates:​ ​May 2013 - may 2016</h3>
               <br />
-              <h2>Discription:</h2>
+              <h3>Discription:</h3>
               <h3><br /><li>
                 Trainer
             </li>

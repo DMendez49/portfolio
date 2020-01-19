@@ -10,7 +10,7 @@ const Instructure = () => (
           <br />
           <Card>
             <br />
-            <img alt="build diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Instructure_logo.svg/1280px-Instructure_logo.svg.png" width="900"></img>
+            <img alt="build diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Instructure_logo.svg/1280px-Instructure_logo.svg.png" width="500"></img>
             <br />
           </Card>
           <br />
@@ -18,11 +18,11 @@ const Instructure = () => (
           <card>
             <div class="backy">
               <br /><br /><br />
-              <h2>Facilitator / Office Coordinator</h2>
-              <h2>Contact: 1(800)203-6755</h2>
-              <h2>Dates: October 2015 - July 2017</h2>
+              <h3>Facilitator / Office Coordinator</h3>
+              <h3>Contact: 1(800)203-6755</h3>
+              <h3>Dates: October 2015 - July 2017</h3>
               <br />
-              <h2>Discription:</h2>
+              <h3>Discription:</h3>
               <h3><li>
                 I was heavily involved in analyzing and managing all of the inventory while Maintaining inventory accuracy.
             </li></h3>
@@ -33,10 +33,10 @@ const Instructure = () => (
               <h3><li>
                 I am very Detail-oriented, organized, and possess the ability to multi-task and shift priorities quickly while maintaining control, focus, and professionalism in a fast-paced and dynamic environment.
             </li></h3>
-              <br /><br /><br /><br /><br /> <br /> <br />
-              <br /><br /><br /><br /><br />
-              <br /><br /><br /><br /><br />
-              <img alt="build diagram" src="http://pub-images.canvasnetwork.com/PD-0102-headshot-instructure-logo.png" width="200"></img>
+              <br /><br /><br /><br /><br /> <br /> <br /><br /><br />
+              <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+              <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+              <img alt="build diagram" src="http://pub-images.canvasnetwork.com/PD-0102-headshot-instructure-logo.png" width="100"></img>
             </div>
           </card>
         </div>
