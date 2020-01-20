@@ -15,6 +15,7 @@ const About = () => (
               <br />
               <h3>My concentration is to work for you long term and expand my skill set.</h3>
               <h3> And to do some freelance work on the side.</h3>
+              <h3>Select employer to review more details.</h3>
               <br />
             </header>
           </Card>

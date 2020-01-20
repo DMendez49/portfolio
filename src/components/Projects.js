@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Header, Segment, Card, Drop, Grid } from "semantic-ui-react";
+import react_rails from "../image/react_rails.png"
 
 const Project = () => (
   <center>
@@ -28,50 +29,99 @@ const Project = () => (
             </a>
             <h6>
               <h4>
-                <div >
+                <br /><br />
+                <div class="sidebyside">
+                  <Grid.Column>
+                    <Grid columns={4}
+                      align="center">
+                      <div>
+                        <Button color="black">
+                          <a href="https://github.com/DMendez49/rails_react_Department_store" target="_blank">
+                            <img alt="build diagram" src= {react_rails} height="150" width="140"></img>
+                          </a>
+                        </Button>
+                        <h3>rails_react_Department_store</h3>
+                      </div>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                      <div>
+                        <Button color="black">
+                          <a href="https://github.com/DMendez49/contextApp/tree/master/src/components" target="_blank">
+                            <img alt="build diagram" src="http://pluspng.com/img-png/logo-javascript-png-file-javascript-logo-png-1052.png" height="150" width="140"></img>
+                          </a>
+                        </Button>
+                        <h3>contextApp</h3>
+                      </div>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                      <div>
+                        <Button color="black">
+                          <a href="https://github.com/DMendez49/react-Flash-Card/tree/master/src" target="_blank">
+                            <img alt="build diagram" src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" height="150" width="140"></img>
+                          </a>
+                        </Button>
+                        <h3>react-Flash-Card</h3>
+                      </div>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                      <div>
+                        <Button color="black">
+                          <a href="https://github.com/DMendez49/Flash_Cards" target="_blank">
+                            <img alt="build diagram" src="http://pluspng.com/img-png/logo-javascript-png-file-javascript-logo-png-1052.png" height="150" width="140"></img>
+                          </a>
+                        </Button>
+                        <h3>Flash_Cards</h3>
+                      </div>
+                      <div>
+                        <Button color="black">
+                          <a href="https://github.com/DMendez49/Drop7Clone" target="_blank">
+                            <img alt="build diagram" src="https://image.flaticon.com/icons/png/512/226/226777.png" height="150" width="140"></img>
+                          </a>
+                        </Button>
+                        <h3>Flash_Cards</h3>
+                      </div>
+                    </Grid>
+                  </Grid.Column>
+                </div>
+                <br />
+                <Card>
+                  <h3>
+                    <br />
+                    Group projects
                   <br /><br />
-                  <div class="sidebyside">
-                    <Grid.Column>
-                      <Grid columns={4}
-                        align="center">
-                        <div>
-                          <Button color="black">
-                            <a href="https://github.com/DMendez49/rails_react_Department_store" target="_blank">
-                              <img alt="build diagram" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Ruby_logo.png" height="150" width="140"></img>
-                            </a>
-                          </Button>
-                          <h3>rails_react_Department_store</h3>
-                        </div>
-                      <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                        <div>
-                          <Button color="black">
-                            <a href="https://github.com/DMendez49/contextApp/tree/master/src/components" target="_blank">
-                              <img alt="build diagram" src="http://pluspng.com/img-png/logo-javascript-png-file-javascript-logo-png-1052.png" height="150" width="140"></img>
-                            </a>
-                          </Button>
-                          <h3>contextApp</h3>
-                        </div>
-                      <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                        <div>
-                          <Button color="black">
-                            <a href="https://github.com/DMendez49/react-Flash-Card/tree/master/src" target="_blank">
-                              <img alt="build diagram" src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" height="150" width="140"></img>
-                            </a>
-                          </Button>
-                          <h3>react-Flash-Card</h3>
-                        </div>
-                      <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                        <div>
-                          <Button color="black">
-                            <a href="https://github.com/DMendez49/Flash_Cards" target="_blank">
-                              <img alt="build diagram" src="http://pluspng.com/img-png/logo-javascript-png-file-javascript-logo-png-1052.png" height="150" width="140"></img>
-                            </a>
-                          </Button>
-                          <h3>Flash_Cards</h3>
-                        </div>
-                      </Grid>
-                    </Grid.Column>
-                  </div>
+                  </h3>
+                </Card>
+                <br /><br />
+                <div class="sidebyside">
+                  <Grid.Column>
+                    <Grid columns={4}
+                      align="center">
+                      <div>
+                        <Button color="black">
+                          <a href="https://github.com/DMendez49/Rails_HackTrips" target="_blank">
+                            <img alt="build diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Ruby_on_Rails_logo.svg/807px-Ruby_on_Rails_logo.svg.png" height="150" width="140"></img>
+                          </a>
+                        </Button>
+                        <h3>Rails_HackTrips</h3>
+                      </div>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                      <div>
+                        <Button color="black">
+                          <a href="https://github.com/DMendez49/rails_react_Utoob" target="_blank">
+                            <img alt="build diagram" src={react_rails} height="150" width="140"></img>
+                          </a>
+                        </Button>
+                        <h3>rails_react_Utoob</h3>
+                      </div>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                      <div>
+                        <Button color="black">
+                          <a href="https://github.com/DMendez49/Flash_Cards" target="_blank">
+                            <img alt="build diagram" src={react_rails} height="150" width="140"></img>
+                          </a>
+                        </Button>
+                        <h3>DevPointLabs_Store</h3>
+                      </div>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    </Grid>
+                  </Grid.Column>
                 </div>
                 <br /> <br />
                 <br /><br />

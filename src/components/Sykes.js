@@ -11,10 +11,9 @@ const Sykes = () => (
           <Card>
             <img alt="build diagram" src="https://www.xytrondatarecovery.co.uk/wp-content/uploads/2015/07/sykes-logo.png" width="500" height="150"></img>
           </Card>
-          <br />
           <card>
             <div class="backy">
-              <br />   <br />   <br />
+              <br /><br /><br />
               <h3>Role: Knowledge Specialist</h3>
               <h3>Contact: Bought out by capital one</h3>
               <h3>Dates:​ July 2017 - Feb 2018</h3>

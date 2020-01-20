@@ -13,8 +13,6 @@ const Instructure = () => (
             <img alt="build diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Instructure_logo.svg/1280px-Instructure_logo.svg.png" width="500"></img>
             <br />
           </Card>
-          <br />
-          <br />
           <card>
             <div class="backy">
               <br /><br /><br />

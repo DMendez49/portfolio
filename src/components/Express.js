@@ -13,7 +13,6 @@ const Express = () => (
           </div>
           <br />
           <card>
-            <br />
             <div class="backy">
               <br /><br /><br />
               <h3>Role: Machine Operator</h3>
