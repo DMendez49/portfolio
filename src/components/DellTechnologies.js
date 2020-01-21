@@ -9,7 +9,12 @@ const DellTechnologies = () => (
           <br />
           <Card>
             <br />
-            <img alt="build diagram" src="https://cdn.worldvectorlogo.com/logos/dell-technologies-logo.svg" width="500"></img>
+            <img 
+            className="img" 
+            alt="build diagram"
+            src="https://cdn.worldvectorlogo.com/logos/dell-technologies-logo.svg"
+            width="500">
+              </img>
             <br />
           </Card>
 

@@ -8,8 +8,15 @@ const Sykes = () => (
       <div class="left-column">
         <div class="right-column">
           <br />
-          <Card>
-            <img alt="build diagram" src="https://www.xytrondatarecovery.co.uk/wp-content/uploads/2015/07/sykes-logo.png" width="500" height="150"></img>
+          <Card 
+          className="img">
+            <img 
+            alt="build diagram" 
+            src="https://www.xytrondatarecovery.co.uk/wp-content/uploads/2015/07/sykes-logo.png" 
+            width="500" 
+            className="img"
+            height="150">
+            </img>
           </Card>
           <card>
             <div class="backy">

@@ -10,7 +10,12 @@ const Instructure = () => (
           <br />
           <Card>
             <br />
-            <img alt="build diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Instructure_logo.svg/1280px-Instructure_logo.svg.png" width="500"></img>
+            <img
+              alt="build diagram"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Instructure_logo.svg/1280px-Instructure_logo.svg.png"
+              className="img"
+              width="500">
+            </img>
             <br />
           </Card>
           <card>

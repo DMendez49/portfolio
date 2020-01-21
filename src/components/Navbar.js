@@ -49,9 +49,8 @@ const Navbar = () => (
             <Link to="connection">
               <Menu.Item>
                 <h3>Contact Me
-                  <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                  <Icon name="phone">
-                  </Icon>
+                  {/* <Icon name="phone">
+                  </Icon> */}
                 </h3>
               </Menu.Item>
             </Link>

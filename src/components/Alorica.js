@@ -10,7 +10,12 @@ const Alorica = () => (
           <br />
           <div class="oz">
             <br />
-            <img alt="build diagram" src="https://cdn.alorica.com/wp-content/themes/alorica/images/logo.png" width="370"></img>
+            <img
+              alt="build diagram"
+              src="https://cdn.alorica.com/wp-content/themes/alorica/images/logo.png"
+              className="img"
+              width="370">
+            </img>
             <br /> <br />
           </div>
           <br />
