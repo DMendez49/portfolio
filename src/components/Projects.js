@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Header, Segment, Card, Drop, Grid } from "semantic-ui-react";
 import react_rails from "../image/react_rails.png"
+import dpl from "../image/dpl.jpg"
 
 const Project = () => (
   <center>
@@ -37,12 +38,12 @@ const Project = () => (
                       <div>
                         <Button color="black">
                           <a href="https://github.com/DMendez49/rails_react_Department_store" target="_blank">
-                            <img alt="build diagram" src= {react_rails} height="150" width="140"></img>
+                            <img alt="build diagram" src={react_rails} height="150" width="140"></img>
                           </a>
                         </Button>
                         <h3>rails_react_Department_store</h3>
                       </div>
-                    <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                      <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
                       <div>
                         <Button color="black">
                           <a href="https://github.com/DMendez49/contextApp/tree/master/src/components" target="_blank">
@@ -51,7 +52,7 @@ const Project = () => (
                         </Button>
                         <h3>contextApp</h3>
                       </div>
-                    <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                      <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
                       <div>
                         <Button color="black">
                           <a href="https://github.com/DMendez49/react-Flash-Card/tree/master/src" target="_blank">
@@ -60,7 +61,7 @@ const Project = () => (
                         </Button>
                         <h3>react-Flash-Card</h3>
                       </div>
-                    <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                      <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
                       <div>
                         <Button color="black">
                           <a href="https://github.com/DMendez49/Flash_Cards" target="_blank">
@@ -71,16 +72,40 @@ const Project = () => (
                       </div>
                       <div>
                         <Button color="black">
+                          <a href="https://github.com/DMendez49/Connect4" target="_blank">
+                            <img alt="build diagram" src="https://image.flaticon.com/icons/png/512/226/226777.png" height="150" width="140"></img>
+                          </a>
+                        </Button>
+                        <h3>Connect4</h3>
+                      </div>
+                    </Grid>
+                  </Grid.Column>
+                </div>
+                <br /><br />
+                <div class="sidebyside">
+                  <Grid.Column>
+                    <Grid>
+                      <div>
+                        <Button color="black">
                           <a href="https://github.com/DMendez49/Drop7Clone" target="_blank">
                             <img alt="build diagram" src="https://image.flaticon.com/icons/png/512/226/226777.png" height="150" width="140"></img>
                           </a>
                         </Button>
                         <h3>Flash_Cards</h3>
                       </div>
+                      <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                      <div>
+                        <Button color="black">
+                          <a href="https://github.com/DMendez49/Connect4" target="_blank">
+                            <img alt="build diagram" src="https://image.flaticon.com/icons/png/512/226/226777.png" height="150" width="140"></img>
+                          </a>
+                        </Button>
+                        <h3>Connect4</h3>
+                      </div>
+
                     </Grid>
                   </Grid.Column>
                 </div>
-                <br />
                 <Card>
                   <h3>
                     <br />
@@ -101,7 +126,7 @@ const Project = () => (
                         </Button>
                         <h3>Rails_HackTrips</h3>
                       </div>
-                    <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                      <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
                       <div>
                         <Button color="black">
                           <a href="https://github.com/DMendez49/rails_react_Utoob" target="_blank">
@@ -110,7 +135,7 @@ const Project = () => (
                         </Button>
                         <h3>rails_react_Utoob</h3>
                       </div>
-                    <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                      <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
                       <div>
                         <Button color="black">
                           <a href="https://github.com/DMendez49/Flash_Cards" target="_blank">
@@ -119,7 +144,7 @@ const Project = () => (
                         </Button>
                         <h3>DevPointLabs_Store</h3>
                       </div>
-                    <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                      <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
                     </Grid>
                   </Grid.Column>
                 </div>

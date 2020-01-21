@@ -218,9 +218,12 @@ h1{
       background:orange;
     }
   
-    @media screen and (max-width:959px){
-      #Container{
+    /* @media screen and (max-width:959px){
+      .oz{
         width: 100%;
+        
+        
+        }
       }
       #left-column{
         width: 70%;
@@ -228,11 +231,141 @@ h1{
       #right-column{
         width: 30%;
       }
-    }
+    } */
 
      /* width */
  ::-webkit-scrollbar {
   width: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .ooops{
+    width: 100% !important;
+  }
+  .oz{
+    width: 100% !important;
+  }
+  h5{
+    width: 100% !important;
+  }
+  .backson{
+    width: 100% !important;
+  }
+  center{
+    width: 100% !important;
+  }
+  .thick-border{
+    width: 100% !important;
+  }
+  .right-column{
+    width: 100% !important;
+    height:100% !important;
+  }
+  .left-column{
+    width: 100% !important;
+  }
+  .Container{
+    width: 100% !important;
+  }
+  
+  .backy{
+    width: 100% !important;
+  }
+  .sidebyside{
+    width: 100% !important;
+    font-size: xx-small;
+  }
+  .ui.card {
+    width: 100% !important;
+  }
+  a{
+    width: 100% !important;
+  }
+  h6{
+    width: 100% !important; 
+  }
+  .root{
+    width: 100% !important; 
+  }
+  h3{
+    width: 100% !important; 
+    font-size: x-small !important;
+  }
+  h2{
+    font-size: xx-small;
+    font-size: small !important;
+  }
+  h1{
+    font-size: small !important;
+  }
+  ui-four-column-grid{
+    width: 100% !important; 
+  }
+  .ui.grid {
+    display: flow-root !important;
+  }
+  .ui.menu {
+    width: 100% !important; 
+  }
+  ui-blue-nverted-tiny-button{
+    width: 100% !important; 
+  }
+  ui-red-nverted-tiny-button{
+    width: 100% ; 
+  }
+  li{
+    font-size: xx-small;
+  }
+  h4{
+    background-color: grey !important;
+    /* height: 2800px !important; */
+  }
+  script{
+    width: 100% !important; 
+  }
+  ui-menu{
+    width: 100% !important; 
+  }
+  body{
+    background-attachment: black;
+  }
+  html{
+    height: 100px !important;
+  }
+  button{
+    /* width: 100% !important;  */
+
+  }
+  /* * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  } */
+ 
+}
+
+
+
+
+@media screen and (max-width: 425px) {
+  .ooops {
+    width: 75% !important;
+  }
+  .oz{
+    width: 75% !important; 
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .ooops {
+    width: 50% !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .ooops{
+    width: 25%!important;
+  }
 }
 
 /* Track */
