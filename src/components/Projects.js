@@ -87,41 +87,35 @@ const Project = () => (
                     <Grid>
                       <div>
                         <Button color="black">
-                          <a href="https://github.com/DMendez49/Drop7Clone" target="_blank">
+                          <a href="https://github.com/DMendez49/rails_lms" target="_blank">
                             <img alt="build diagram" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Ruby_logo.png" height="150" width="140"></img>
                           </a>
                         </Button>
-                        <h3>Flash_Cards</h3>
+                        <h3>rails_lms</h3>
                       </div>
                       <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
                       <div>
                         <Button color="black">
-                          <a href="https://github.com/DMendez49/Drop7Clone" target="_blank">
+                          <a href="https://github.com/DMendez49/Final_Stimulator_Howw" target="_blank">
                             <img alt="build diagram" src="https://image.flaticon.com/icons/png/512/226/226777.png" height="150" width="140"></img>
                           </a>
                         </Button>
-                        <h3>Flash_Cards</h3>
+                        <h3>Final_Stimulator_Howw</h3>
                       </div>
                       <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                      <div>
-                        <Button color="black">
-                          <a href="https://github.com/DMendez49/Connect4" target="_blank">
-                            <img alt="build diagram" src="https://image.flaticon.com/icons/png/512/226/226777.png" height="150" width="140"></img>
-                          </a>
-                        </Button>
-                        <h3>Connect4</h3>
-                      </div>
-
                     </Grid>
                   </Grid.Column>
                 </div>
-                <Card>
-                  <h3>
-                    <br />
-                    Group projects
+                <br /><br />
+                <a href="https://github.com/DMendez49" target="_blank">
+                  <Card>
+                    <h3>
+                      <br />
+                      Group projects
                   <br /><br />
-                  </h3>
-                </Card>
+                    </h3>
+                  </Card>
+                </a>
                 <br /><br />
                 <div class="sidebyside">
                   <Grid.Column>
