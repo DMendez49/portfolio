@@ -52,7 +52,7 @@ const Project = () => (
                       <div>
                         <Button color="black">
                           <a href="https://github.com/DMendez49/rails_react_Department_store" target="_blank">
-                            <img alt="build diagram" src={react_rails} height="150" width="140"></img>
+                            <img alt="build diagram" src="https://miro.medium.com/max/825/1*ohQul8IFYtRTzpGbKaIovA.png" height="150" width="140"></img>
                           </a>
                         </Button>
                         <h3>rails_react_Department_store</h3>
@@ -147,7 +147,7 @@ const Project = () => (
                       <div>
                         <Button color="black">
                           <a href="https://github.com/DMendez49/rails_react_Utoob" target="_blank">
-                            <img alt="build diagram" src={react_rails} height="150" width="140"></img>
+                            <img alt="build diagram" src="https://miro.medium.com/max/825/1*ohQul8IFYtRTzpGbKaIovA.png" height="150" width="140"></img>
                           </a>
                         </Button>
                         <h3>rails_react_Utoob</h3>
@@ -156,7 +156,7 @@ const Project = () => (
                       <div>
                         <Button color="black">
                           <a href="https://github.com/DMendez49/Flash_Cards" target="_blank">
-                            <img alt="build diagram" src={react_rails} height="150" width="140"></img>
+                            <img alt="build diagram" src="https://miro.medium.com/max/825/1*ohQul8IFYtRTzpGbKaIovA.png" height="150" width="140"></img>
                           </a>
                         </Button>
                         <h3>DevPointLabs_Store</h3>
