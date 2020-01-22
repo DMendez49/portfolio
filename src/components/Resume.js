@@ -6,18 +6,22 @@ const Resume = () => (
 
   <center>
     <br /><br />
-    <Button>
-      <a href="https://docs.google.com/document/d/1CFYHfLnYrZMGTb0rjlSLrG6dsdAUkg_wSJd0tUtoaUQ/edit"
-        target="_blank">
-        <img
-          alt="build diagram"
-          src="https://img.icons8.com/plasticine/2x/resume.png"
-          height="150"
-          width="140">
-        </img>
-      </a>
-    </Button>
-    <br /> <br /><br /><br />
+    <div class="cardBox">
+      <div class="card">
+        <Button>
+          <a href="https://docs.google.com/document/d/1CFYHfLnYrZMGTb0rjlSLrG6dsdAUkg_wSJd0tUtoaUQ/edit"
+            target="_blank">
+            <img
+              alt="build diagram"
+              src="https://img.icons8.com/plasticine/2x/resume.png"
+              height="150"
+              width="140">
+            </img>
+          </a>
+        </Button>
+      </div>
+    </div>
+    <br /><br /><br />
     <a href="https://docs.google.com/document/d/1CFYHfLnYrZMGTb0rjlSLrG6dsdAUkg_wSJd0tUtoaUQ/edit" target="_blank">
       <Card>
         <h3>

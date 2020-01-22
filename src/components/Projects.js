@@ -5,20 +5,30 @@ import dpl from "../image/dpl.jpg"
 
 const Project = () => (
   <center>
-    <div class="Container">
-      <div class="left-column">
-        <div class="right-column">
-          <div class="fieldset">
-            <br /><br />
-            <div class="a">
-              <link rel="stylesheet" href="./App.css" />
-              <a href="https://github.com/DMendez49" target="_blank">
+    <div>
+      <div class="Container">
+        <div class="left-column">
+          <div class="right-column">
+            <div class="fieldset">
+              <div class="a">
+                <br /><br />
                 <Button>
-                  <img alt="build diagram" src="http://pngimg.com/uploads/github/github_PNG20.png" height="150" width="140"></img>
+                  <link rel="stylesheet" href="./App.css" />
+                  <a href="https://github.com/DMendez49"
+                    target="_blank">
+                    <img
+                      alt="build diagram"
+                      src="http://pngimg.com/uploads/github/github_PNG20.png"
+                      height="150"
+                      width="140">
+                    </img>
+                  </a>
                 </Button>
-              </a>
+              </div>
             </div>
-            <br /><br /><br />
+            <div class="smallSpace">
+          <br /><br /><br />
+          </div>
             <a href="https://github.com/DMendez49" target="_blank">
               <Card>
                 <h3>
