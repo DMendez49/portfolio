@@ -5,30 +5,32 @@ import dpl from "../image/dpl.jpg"
 
 const Project = () => (
   <center>
-    <div>
-      <div class="Container">
-        <div class="left-column">
-          <div class="right-column">
-            <div class="fieldset">
-              <div class="a">
-                <br /><br />
-                <Button>
-                  <link rel="stylesheet" href="./App.css" />
-                  <a href="https://github.com/DMendez49"
-                    target="_blank">
-                    <img
-                      alt="build diagram"
-                      src="http://pngimg.com/uploads/github/github_PNG20.png"
-                      height="150"
-                      width="140">
-                    </img>
-                  </a>
-                </Button>
+    <div class="Container">
+      <div class="left-column">
+        <div class="right-column">
+          <div class="fieldset">
+            <div class="a">
+              <div class="smallSpace">
+                <br /><br /><br /><br /><br /><br />
+              </div>
+              <div class="cardBox">
+                <div class="card">
+                  <Button>
+                    <link rel="stylesheet" href="./App.css" />
+                    <a href="https://github.com/DMendez49"
+                      target="_blank">
+                      <img
+                        alt="build diagram"
+                        src="http://pngimg.com/uploads/github/github_PNG20.png"
+                        height="150"
+                        width="140">
+                      </img>
+                    </a>
+                  </Button>
+                </div>
               </div>
             </div>
-            <div class="smallSpace">
-          <br /><br /><br />
-          </div>
+            <br />
             <a href="https://github.com/DMendez49" target="_blank">
               <Card>
                 <h3>
@@ -41,6 +43,8 @@ const Project = () => (
             <h6>
               <h4>
                 <br /><br />
+                <div class="spacer">
+                </div>
                 <div class="sidebyside">
                   <Grid.Column>
                     <Grid columns={4}
