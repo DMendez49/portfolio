@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Header, Segment, Card } from "semantic-ui-react";
+import Footer from "./Footer"
 
 const Express = () => (
 
@@ -19,7 +20,7 @@ const Express = () => (
           </div>
           <br />
           <card>
-            <div class="backy">
+            <div class="Backaroo">
               <br /><br /><br />
               <h3>Role: Machine Operator</h3>
               <h3>Contact: (801) 566-502​6</h3>
@@ -54,6 +55,8 @@ const Express = () => (
         </div>
       </div>
     </div>
+    <br /><br /><br />
+    <Footer />
   </center>
 
 );

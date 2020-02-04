@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Header, Segment, Card } from "semantic-ui-react";
+import Footer from "./Footer"
 
 const Instructure = () => (
 
@@ -45,6 +46,9 @@ const Instructure = () => (
         </div>
       </div>
     </div>
+    <br /><br /><br />
+    <br /><br /><br />
+    <Footer />
   </center>
 
 );

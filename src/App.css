@@ -5,15 +5,19 @@
   text-align: center;
 }
 
-.diffCard
-  .cardBox {
+.hang
+.ui.button {
     position: relative;
-    top: 0%;
+    top: 110% !important;
     left: 50%;
     transform: translate(-50%, -50%);
     perspective: 1000px;
-    background: rgba(254, 255, 255, 0);
+    background: rgba(254, 255, 255, 0) !important;
+    border-style: none !important;
+    border: 0px !important;
+    
 }
+
 
 /* flipcard for projects  to line 55 */
 .cardBox {
@@ -196,6 +200,15 @@ h1{
     border: none;
   }
 
+  .Footer{
+    font-size: 20px;
+    background: linear-gradient(45deg, rgba(128, 128, 128, 0.712), transparent) !important;
+    font-family: monospace !important;
+    font-size: 27px !important;
+    color: black;
+    border: none;
+  }
+
   .sidebyside {
       display: flex;
       flex-direction: row;
@@ -222,7 +235,6 @@ h1{
 
     .backy{
       font-size: 20px;
-      /* background: linear-gradient(45deg, rgb(255, 255, 255), transparent) !important; */
       background-color: rgba(245, 245, 245, 0.76);
       font-family: monospace !important;
       font-size: 27px !important;
@@ -230,6 +242,17 @@ h1{
       color: black;
       border: none;
       height: 1200px;
+    }
+
+    .Backaroo{
+      font-size: 20px;
+      background-color: rgba(245, 245, 245, 0.76);
+      font-family: monospace !important;
+      font-size: 27px !important;
+      width: 1000px;
+      color: black;
+      border: none;
+      height: 1150px;
     }
 
     .backson{

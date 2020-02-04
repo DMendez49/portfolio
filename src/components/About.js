@@ -2,6 +2,8 @@ import React, { Fragment, useState, useEffect } from "react";
 import { Card } from "semantic-ui-react";
 import { Link, } from 'react-router-dom'
 import { Container } from 'semantic-ui-react'
+import Footer from "./Footer"
+
 
 const About = () => (
 
@@ -59,7 +61,7 @@ const About = () => (
                 </button>
               </Link>
               <br />
-              <br />
+           
               <br />
               <br />
             </h5>
@@ -80,10 +82,11 @@ const About = () => (
               </button>
             </div>
           </Card>
-          <br /><br /><br />
         </div>
       </div>
     </div>
+    <br />  <br />
+    <Footer />
   </center >
 );
 

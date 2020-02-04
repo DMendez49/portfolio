@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Header, Segment, Card } from "semantic-ui-react";
+import Footer from "./Footer"
 
 const Sykes = () => (
 
@@ -8,14 +9,14 @@ const Sykes = () => (
       <div class="left-column">
         <div class="right-column">
           <br />
-          <Card 
-          className="img">
-            <img 
-            alt="build diagram" 
-            src="https://www.xytrondatarecovery.co.uk/wp-content/uploads/2015/07/sykes-logo.png" 
-            width="500" 
-            className="img"
-            height="150">
+          <Card
+            className="img">
+            <img
+              alt="build diagram"
+              src="https://www.xytrondatarecovery.co.uk/wp-content/uploads/2015/07/sykes-logo.png"
+              width="500"
+              className="img"
+              height="150">
             </img>
           </Card>
           <card>
@@ -55,6 +56,8 @@ const Sykes = () => (
         </div>
       </div>
     </div>
+    <br /><br /><br />
+    <Footer />
   </center>
 );
 

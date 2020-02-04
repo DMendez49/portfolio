@@ -7,7 +7,8 @@ const Navbar = () => (
     <div class="Container">
       <div class="left-column">
         <div class="right-column">
-          <Button color="blue inverted"
+          <Button
+            color="blue inverted"
             size="tiny">
             <Link to="/">
               <Menu.Item>
@@ -16,7 +17,8 @@ const Navbar = () => (
               </Menu.Item>
             </Link>
           </Button>
-          <Button color="red inverted"
+          <Button
+            color="red inverted"
             size="tiny">
             <Link to="/about">
               <Menu.Item>
@@ -25,7 +27,8 @@ const Navbar = () => (
               </Menu.Item>
             </Link>
           </Button>
-          <Button color="red inverted"
+          <Button
+            color="red inverted"
             size="tiny">
             <Link to="/Resume">
               <Menu.Item>
@@ -34,7 +37,8 @@ const Navbar = () => (
               </Menu.Item>
             </Link>
           </Button>
-          <Button color="red inverted"
+          <Button
+            color="red inverted"
             size="tiny">
             <Link to="/project">
               <Menu.Item>

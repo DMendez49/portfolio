@@ -2,6 +2,8 @@ import React from "react";
 import { Button, Header, Segment, Card, Drop, Grid } from "semantic-ui-react";
 import react_rails from "../image/react_rails.png"
 import dpl from "../image/dpl.jpg"
+import Footer from "./Footer"
+
 
 const Project = () => (
   <center>
@@ -30,7 +32,7 @@ const Project = () => (
                 </div>
               </div>
             </div>
-            <br />
+          <br />
             <a href="https://github.com/DMendez49" target="_blank">
               <Card>
                 <h3>
@@ -42,7 +44,7 @@ const Project = () => (
             </a>
             <h6>
               <h4>
-                <br /><br />
+                <br />
                 <div class="spacer">
                 </div>
                 <div class="sidebyside">
@@ -57,7 +59,7 @@ const Project = () => (
                         </Button>
                         <h3>rails_react_Department_store</h3>
                       </div>
-                      <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
                       <div>
                         <Button color="black">
                           <a href="https://github.com/DMendez49/contextApp/tree/master/src/components" target="_blank">
@@ -66,7 +68,7 @@ const Project = () => (
                         </Button>
                         <h3>contextApp</h3>
                       </div>
-                      <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
                       <div>
                         <Button color="black">
                           <a href="https://github.com/DMendez49/react-Flash-Card/tree/master/src" target="_blank">
@@ -75,7 +77,7 @@ const Project = () => (
                         </Button>
                         <h3>react-Flash-Card</h3>
                       </div>
-                      <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
                       <div>
                         <Button color="black">
                           <a href="https://github.com/DMendez49/Flash_Cards" target="_blank">
@@ -107,7 +109,7 @@ const Project = () => (
                         </Button>
                         <h3>rails_lms</h3>
                       </div>
-                      <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
                       <div>
                         <Button color="black">
                           <a href="https://github.com/DMendez49/Final_Stimulator_Howw" target="_blank">
@@ -130,7 +132,7 @@ const Project = () => (
                     </h3>
                   </Card>
                 </a>
-                <br /><br />
+              <br /><br />
                 <div class="sidebyside">
                   <Grid.Column>
                     <Grid columns={4}
@@ -143,7 +145,7 @@ const Project = () => (
                         </Button>
                         <h3>Rails_HackTrips</h3>
                       </div>
-                      <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
                       <div>
                         <Button color="black">
                           <a href="https://github.com/DMendez49/rails_react_Utoob" target="_blank">
@@ -152,7 +154,7 @@ const Project = () => (
                         </Button>
                         <h3>rails_react_Utoob</h3>
                       </div>
-                      <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
                       <div>
                         <Button color="black">
                           <a href="https://github.com/DMendez49/Flash_Cards" target="_blank">
@@ -165,14 +167,15 @@ const Project = () => (
                     </Grid>
                   </Grid.Column>
                 </div>
-                <br /> <br />
-                <br /><br />
+                <br />
               </h4>
             </h6>
           </div>
         </div>
       </div>
     </div>
+    <br />
+    <Footer />
   </center>
 );
 

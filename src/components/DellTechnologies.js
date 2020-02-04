@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Header, Segment, Card } from "semantic-ui-react";
+import Footer from "./Footer"
 
 const DellTechnologies = () => (
   <center>
@@ -9,20 +10,18 @@ const DellTechnologies = () => (
           <br />
           <Card>
             <br />
-            <img 
-            className="img" 
-            alt="build diagram"
-            src="https://cdn.worldvectorlogo.com/logos/dell-technologies-logo.svg"
-            width="500">
-              </img>
+            <img
+              className="img"
+              alt="build diagram"
+              src="https://cdn.worldvectorlogo.com/logos/dell-technologies-logo.svg"
+              width="500">
+            </img>
             <br />
           </Card>
 
           <card>
             <div class="backy">
-              <br />
-              <br />
-              <br />
+              <br /><br /><br />
               <h3>Role: Data Analyst</h3>
               <h3>Contact: 1(801)566-1889</h3>
               <h3>Dates: Feb 2018 - May 2019</h3>
@@ -43,6 +42,9 @@ const DellTechnologies = () => (
         </div>
       </div>
     </div>
+    <br /><br /><br />
+    <br /><br />
+    <Footer />
   </center>
 
 );

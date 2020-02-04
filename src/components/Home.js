@@ -1,15 +1,18 @@
 import React, { Fragment } from "react";
 import { Header, Card } from "semantic-ui-react";
+import Footer from "./Footer"
 
 const Home = () => (
-  <Fragment>
+  <>
     <div class="Container">
       <div class="left-column">
         <div class="right-column">
           <br /><br /><br /><br /><br />
+          <br /><br />
           <div>
             <img class="thick-border" alt="build diagram" src="https://scontent-den4-1.xx.fbcdn.net/v/t1.0-9/52778803_2138707336198360_337889896129626112_o.jpg?_nc_cat=106&_nc_ohc=AUtSFTivbikAQm_MYSYvHf-LmfojfKQ0_YFgq8IS74C-osLNnVkVZ8NAA&_nc_ht=scontent-den4-1.xx&oh=f2b8c48adc26eab321f39c730aa2a627&oe=5EAF8C67" width="405"></img>
             <br /><br /><br /><br /><br />
+            <br /><br /><br />
             <Card>
               <br />
               <h1>David Mendez</h1>
@@ -36,10 +39,9 @@ const Home = () => (
               </h3>
               <br />
             </Card>
-            <br />
           </div>
         </div>
-        <div>
+        {/* <div>
           <div className="alighnRight">
             <a href="https://www.youtube.com/channel/UCT3WnNy39aTW1Xba8Wh8hGA/about?view_as=subscriber" target="_blank">
               <img alt="build diagram" src="https://image.flaticon.com/icons/png/512/16/16030.png" width="40" align="left"></img></a>
@@ -65,12 +67,16 @@ const Home = () => (
               <img alt="build diagram" src="https://papermilkdesign.com/transparent450_/facebook-png-white-19.png" width="40" align="left"></img></a>
           </div>
           <br />
-        </div>
-        <br />
+        </div> */}
+        {/* <br /> */}
       </div>
     </div>
+    <br /><br /><br /><br /><br /><br />
+    <br /><br /><br /> <br /><br />
+    <br /><br /><br />
+    <Footer />
 
-  </Fragment>
+  </>
 );
 
 export default Home;

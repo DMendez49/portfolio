@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Header, Segment, Card } from "semantic-ui-react";
+import Footer from "./Footer"
 
 
 const Resume = () => (
@@ -48,6 +49,12 @@ const Resume = () => (
           </h3>
         </div>
       </card></a>
+    <br /><br /><br />
+    <br /><br /><br />
+    <br /><br /><br />
+    <br /><br /><br />
+    <br />
+    <Footer />
   </center>
 );
 

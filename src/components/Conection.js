@@ -1,5 +1,7 @@
 import React from "react";
 import { Card, } from "semantic-ui-react";
+import Footer from "./Footer"
+
 
 export default class MyForm extends React.Component {
   //for the text toggle button
@@ -26,11 +28,13 @@ export default class MyForm extends React.Component {
       >
         {/* <!-- add your custom form HTML here --> */}
         <center>
+          <br /><br /><br /><br /><br /><br /><br /><br />
+          <br /><br /><br /><br /><br />
           <div class="Container">
             <div class="left-column">
               <div class="right-column">
-                <h1></h1>
-                <h6>
+
+                {/* <h6>
                   <h3>Connect with me by clicking on a platform</h3>
                   <hr />
                   <br /><br />
@@ -48,10 +52,9 @@ export default class MyForm extends React.Component {
                       <img alt="build diagram" src="https://papermilkdesign.com/transparent450_/facebook-png-white-19.png" width="80"></img></a>
                   </div>
                   <br />
-                </h6>
+                </h6> */}
                 <Card>
-
-                  <h2></h2> <a><img alt="build diagram" src="https://img.icons8.com/plasticine/2x/important-mail.png" width="150" height="150"></img></a>
+                  <a><img alt="build diagram" src="https://img.icons8.com/plasticine/2x/important-mail.png" width="150" height="150"></img></a>
                   <h3>mendezdavid68@gmail.com</h3>
                   <br /><br /> <br />
                   <h3 align="left">Email:</h3>
@@ -66,7 +69,7 @@ export default class MyForm extends React.Component {
                     <br />  <br />  <br />  <br />  <br />  <br />
                   </div>
                   <br /><br /><br /><br /><br />
-                  <br />  <br />  <br />  <br />
+                  <br /><br /><br /><br />
                 </Card>
                 {status === "SUCCESS" ? <p>Thanks!</p> : <button class="ui large blue button ">Send</button>}
                 {/*the text button*/}
@@ -78,6 +81,11 @@ export default class MyForm extends React.Component {
               </div>
             </div>
           </div>
+          <br /><br /><br /><br /><br />
+          <br /><br /><br /><br /><br />
+          <br /><br /><br /><br /><br />
+          <br /><br /><br /><br /><br />
+          <Footer />
         </center>
       </form>
     );

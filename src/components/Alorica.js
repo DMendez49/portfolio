@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Header, Segment, Card } from "semantic-ui-react";
+import Footer from "./Footer"
 
 const Alorica = () => (
 
@@ -43,6 +44,8 @@ const Alorica = () => (
         </div>
       </div>
     </div>
+    <br /><br /><br />
+    <Footer />
   </center>
 
 );
