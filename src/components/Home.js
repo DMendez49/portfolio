@@ -20,7 +20,7 @@ const Home = () => (
               <h3>
                 <div width="500">
                   Hello my name is David Mendez and my interest grew for computer science with my time at Instructure. I was self tought when it comes to programming but was never satisfied with my skills.
-                  I completed the folllwing courses<div align="center"><li>Fundamentals of computer science</li>
+                  I completed the following courses<div align="center"><li>Fundamentals of computer science</li>
                   <li>Object Orented programming</li><li>Data Structures & Algorithms</li></div>at Salt Lake Comunity College and attended a bootCamp with the University Of Utah at Dev Point Labs.
                   I will continue this journey by challenging myself daily. The languages below are the languages I study, you can see more about me by clicking on "About" on the navbar listed above.
                 </div>
