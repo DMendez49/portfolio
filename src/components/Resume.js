@@ -10,7 +10,7 @@ const Resume = () => (
     <div class="cardBox">
       <div class="card">
         <Button>
-          <a href="https://docs.google.com/document/d/1CFYHfLnYrZMGTb0rjlSLrG6dsdAUkg_wSJd0tUtoaUQ/edit"
+          <a href="https://docs.google.com/document/d/1CwEJmKSCMsQEZILbRV5V4JIrV9Uq5dEVO2IF9s0uodk/edit"
             target="_blank">
             <img
               alt="build diagram"
@@ -23,7 +23,7 @@ const Resume = () => (
       </div>
     </div>
     <br /><br /><br />
-    <a href="https://docs.google.com/document/d/1CFYHfLnYrZMGTb0rjlSLrG6dsdAUkg_wSJd0tUtoaUQ/edit" target="_blank">
+    <a href="https://docs.google.com/document/d/1CwEJmKSCMsQEZILbRV5V4JIrV9Uq5dEVO2IF9s0uodk/edit" target="_blank">
       <Card>
         <h3>
           <br />
@@ -32,7 +32,7 @@ const Resume = () => (
         </h3>
       </Card></a>
     <br /><br /><br />
-    <a href="https://docs.google.com/document/d/1CFYHfLnYrZMGTb0rjlSLrG6dsdAUkg_wSJd0tUtoaUQ/edit" target="_blank">
+    <a href="https://docs.google.com/document/d/1CwEJmKSCMsQEZILbRV5V4JIrV9Uq5dEVO2IF9s0uodk/edit" target="_blank">
       <card>
         <div class="backson">
           <br /><br /><br />
