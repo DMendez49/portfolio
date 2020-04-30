@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import FB from "../image/FB.png"
 
 class Footer extends React.Component {
 
@@ -20,7 +21,7 @@ class Footer extends React.Component {
             <img alt="build diagram" src="http://pngimg.com/uploads/github/github_PNG20.png" width="90"></img></a>
 
           <a href="https://www.facebook.com/profile.php?id=100001773444206&ref=bookmarks" target="_blank">
-            <img alt="build diagram" src="https://papermilkdesign.com/transparent450_/facebook-png-white-19.png" width="80"></img></a>
+            <img alt="build diagram" src={FB} width="80"></img></a>
         </div>
         <br />
       </div>
