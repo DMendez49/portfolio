@@ -11,7 +11,7 @@ const Home = () => (
           <br /><br /><br /><br /><br />
           <br /><br />
           <div>
-            <img class="thick-border" alt="build diagram" src={me} width="405"></img>
+            <img class="thick-border" alt="build diagram" src={me} width="505"></img>
             <br /><br /><br /><br /><br />
             <br /><br /><br />
             <Card>
