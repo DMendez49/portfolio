@@ -1,6 +1,7 @@
-import React, { Fragment } from "react";
-import { Header, Card } from "semantic-ui-react";
+import React from "react";
+import { Card } from "semantic-ui-react";
 import Footer from "./Footer"
+import me from "../image/yo.jpg"
 
 const Home = () => (
   <>
@@ -10,7 +11,7 @@ const Home = () => (
           <br /><br /><br /><br /><br />
           <br /><br />
           <div>
-            <img class="thick-border" alt="build diagram" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/52778803_2138707336198360_337889896129626112_o.jpg?_nc_cat=106&_nc_sid=7aed08&_nc_ohc=3ZOxoO1Zk4gAX-ce4YX&_nc_ht=scontent-sjc3-1.xx&oh=b4889016c24b720077a346f2fc620767&oe=5EF50919" width="405"></img>
+            <img class="thick-border" alt="build diagram" src={me} width="405"></img>
             <br /><br /><br /><br /><br />
             <br /><br /><br />
             <Card>
