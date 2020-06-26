@@ -1,7 +1,7 @@
 import React from "react";
 import { Card } from "semantic-ui-react";
 import Footer from "./Footer"
-import me from "../image/coder5.jpg"
+import me from "../image/coder.jpg"
 
 const Home = () => (
   <>
